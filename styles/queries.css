@@ -1,0 +1,36 @@
+@media screen and (min-width: 400px) {
+    .heading {
+        font-size: var(--heading-size-medium);
+    }
+
+    .main-heading {
+        font-size: var(--main-heading-size-medium);
+    }
+
+    .main {
+        max-width: 85%;
+    }
+
+    .social-icon__image {
+        width: 4rem;
+    }
+    
+}
+
+@media screen and (min-width: 550px) {
+    .heading {
+        font-size: var(--heading-size-full);
+    }
+
+    .main-heading {
+        font-size: var(--main-heading-size-full);
+    }
+
+    .main {
+        max-width: 70%;
+    }
+
+    .social-icon__image {
+        width: 4.5rem;
+    }
+}
