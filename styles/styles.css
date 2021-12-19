@@ -9,6 +9,9 @@
   --font-dark-mode: var(--background-light);
   --font-light-mode: #1f1f1f;
 
+  --light-shadow-light-mode: #1f1f1f79;
+  --light-shadow-dark-mode: #e0e0e0a2;
+
   --main-heading-size-full: 3rem;
   --main-heading-size-medium: 2.5rem;
   --main-heading-size-mobile: 2rem;
@@ -43,13 +46,13 @@
 
 .main {
   align-self: center;
-  max-width: 95%;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   transition: var(--transition);
   flex-grow: 4;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 6rem;
 }
 
 .link {
@@ -75,12 +78,16 @@
   margin: 0 0 2rem 0;
 }
 
+.heading--after-singular {
+  margin: 1rem 0 2rem 0;
+}
+
 .paragraph {
   transition: var(--transition);
 }
 
 .paragraph--singular {
-  margin: 0;
+  margin: 0 0 1rem 0;
 }
 
 .list {
@@ -112,10 +119,11 @@
 
 .header {
   top: 0;
-  position: sticky;
+  position: fixed;
   align-self: center;
   z-index: 1;
   width: 100%;
+  line-height: 1;
 }
 
 .footer {
@@ -145,7 +153,10 @@
 .profile-picture {
   width: 10rem;
   display: flex;
-  clip-path: circle(5rem);
+  /* clip-path: circle(5rem); */
+  margin: 1rem 0 0 0;
+  border: 5px solid white;
+  border-radius: 50%;
 }
 
 .note {
@@ -153,5 +164,5 @@
 }
 
 .note--margin-top {
-  margin: 0.5rem 0 0 0;
+  margin: 0.5rem 0 1rem 0;
 }

@@ -13,6 +13,10 @@
     background-color: var(--background-light);
     box-shadow: 0 1rem 2.5rem -1rem var(--background-light);
   }
+
+  .profile-picture {
+    box-shadow: 0 0rem 1rem var(--light-shadow-light-mode);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,6 +37,10 @@
   .social-icon__image {
     filter: invert(1);
   }
+
+  .profile-picture {
+    box-shadow: 0 0rem 1rem var(--light-shadow-dark-mode);
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -46,6 +54,7 @@
 
   .main {
     max-width: 85%;
+    margin-top: 7.5rem;
   }
 
   .social-icon__image {
@@ -64,6 +73,7 @@
 
   .main {
     max-width: 70%;
+    margin-top: 8rem;
   }
 
   .social-icon__image {
@@ -75,4 +85,8 @@
   .main {
     max-width: 60%;
   }
+}
+
+.header--no-shadow {
+  box-shadow: none;
 }
