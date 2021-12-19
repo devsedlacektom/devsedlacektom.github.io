@@ -34,7 +34,7 @@
   margin: 0;
   padding: 0;
   text-align: justify;
-  font: var(--font-light) 1.2em "Open Sans", sans-serif;
+  font: var(--font-light) 1.2rem "Open Sans", sans-serif;
 
   display: flex;
   flex-direction: column;
