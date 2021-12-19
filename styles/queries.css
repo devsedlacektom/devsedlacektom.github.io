@@ -8,6 +8,11 @@
   .link {
     color: var(--font-light-mode);
   }
+
+  .header {
+    background-color: var(--background-light);
+    box-shadow: 0 1rem 2.5rem -1rem var(--background-light);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,6 +23,11 @@
 
   .link {
     color: var(--font-dark-mode);
+  }
+
+  .header {
+    background-color: var(--background-dark);
+    box-shadow: 0 1rem 2.5rem -1rem var(--background-dark);
   }
 
   .social-icon__image {

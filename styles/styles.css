@@ -49,6 +49,7 @@
   transition: var(--transition);
   flex-grow: 4;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .link {
@@ -106,6 +107,14 @@
 
 .image {
   height: auto;
+  width: 100%;
+}
+
+.header {
+  top: 0;
+  position: sticky;
+  align-self: center;
+  z-index: 1;
   width: 100%;
 }
 
