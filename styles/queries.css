@@ -1,6 +1,6 @@
 /* Light mode */
 @media (prefers-color-scheme: light) {
-  body {
+  .page {
     background-color: var(--background-light);
     color: var(--font-light-mode);
   }
@@ -17,10 +17,19 @@
   .profile-picture {
     box-shadow: 0 0rem 1rem var(--light-shadow-light-mode);
   }
+
+  .card {
+    background-color: var(--background-card-light-mode);
+  }
+
+  .card:hover {
+    background-color: var(--background-card-light-mode-hover);
+  }
 }
 
+/* Dark mode */
 @media (prefers-color-scheme: dark) {
-  body {
+  .page {
     background-color: var(--background-dark);
     color: var(--font-dark-mode);
   }
@@ -40,6 +49,14 @@
 
   .profile-picture {
     box-shadow: 0 0rem 1rem var(--light-shadow-dark-mode);
+  }
+
+  .card {
+    background-color: var(--background-card-dark-mode);
+  }
+  
+  .card:hover {
+    background-color: var(--background-card-dark-mode-hover);
   }
 }
 
@@ -81,12 +98,20 @@
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .card-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .main {
     max-width: 60%;
   }
 }
 
-.header--no-shadow {
-  box-shadow: none;
+@media screen and (min-width: 1600px) {
+  .card-box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
