@@ -24,6 +24,7 @@
 
   .card:hover {
     background-color: var(--background-card-light-mode-hover);
+    box-shadow: 0 0rem 1rem var(--light-shadow-light-mode);
   }
 }
 
@@ -57,6 +58,7 @@
   
   .card:hover {
     background-color: var(--background-card-dark-mode-hover);
+    box-shadow: 0 0rem 1rem var(--light-shadow-dark-mode);
   }
 }
 
