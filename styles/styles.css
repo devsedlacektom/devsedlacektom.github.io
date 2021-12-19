@@ -30,7 +30,7 @@
 .page {
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: justify;
   font: var(--font-light) 1.2em "Open Sans", sans-serif;
 
   display: flex;
@@ -67,6 +67,7 @@
   font-size: var(--heading-size-mobile);
   font-weight: var(--font-medium);
   transition: var(--transition);
+  text-align: center;
 }
 
 .heading--no-top {
