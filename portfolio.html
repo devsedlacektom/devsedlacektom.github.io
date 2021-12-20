@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/queries.css" />
+
+    <!-- OpenSans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+
+    <!-- Webpage details -->
+    <meta
+      name="description"
+      content="Personal portfolio site for a freelance developer and a CS student Tomáš Sedláček."
+    />
+    <title>Tomáš Sedláček's personal web page</title>
+  </head>
+  <body class="page">
+    <!-- Page header -->
+    <header class="header">
+      <h1 class="main-heading heading">
+        <a href="/" class="link link--underline">@dev.sedlacektom</a>
+      </h1>
+    </header>
+
+    <!-- Page content -->
+    <main class="main">
+      <h2 class="heading">My portfolio</h2>
+
+      <ul class="card-box list">
+        <li class="card">
+          <a
+            href="https://github.com/devsedlacektom/brainfuck_interpreter"
+            class="card-content link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="portfolio/brainfuck.webp"
+              alt="Project: Brainfuck Interpreter"
+              class="card__image image"
+            />
+            <h3 class="card__name">Brainfuck Interpreter</h3>
+            <p class="card__description">
+              Brainfuck is an almost Turing complete programming language
+              (missing prerequisite: infinite memory). Programming in Brainfuck
+              can be challenging, as this is one of the most bare-bones
+              languages you could find. This project is an interpreter of the
+              language written in Rust. There are many far smaller brainfuck
+              interpreters and compilers (some attacking 200 byte territory),
+              this was just an exercise to learn Rust, borrow checking and other
+              language concepts.
+            </p>
+          </a>
+        </li>
+        <li class="card">
+          <a
+            href="https://github.com/devsedlacektom/find"
+            class="card-content link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="portfolio/find.webp"
+              alt="Project: Find (POSIX command line utility)"
+              class="card__image image"
+            />
+            <h3 class="card__name">Find</h3>
+            <p class="card__description">
+              "Find" is a command-line based utility used for finding files on a
+              filesystem. This repository contains my implementation of the
+              famous UNIX utility. The program is my solution for a homework
+              assignment for a university subject called "Principles of
+              Low-Level Programming".
+            </p>
+          </a>
+        </li>
+
+        <li class="card">
+          <a
+            href="https://github.com/devsedlacektom/wartycoon"
+            class="card-content link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="portfolio/wartycoon.webp"
+              alt="Project: WarTycoon (command line game)"
+              class="card__image image"
+            />
+            <h3 class="card__name">WarTycoon</h3>
+            <p class="card__description">
+              WarTycoon is a command-line based game that currently supports
+              only two players. The point of the game is to conquer the
+              battlefield with the strongest army. Game rules, and other
+              information, can be found in the repository.
+            </p>
+          </a>
+        </li>
+
+        <li class="card">
+          <a
+            href="https://proficnc.sk"
+            class="card-content link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="portfolio/proficnc.webp"
+              alt="Site: PROFIcnc presentation website"
+              class="card__image image"
+            />
+            <h3 class="card__name">PROFIcnc website</h3>
+            <p class="card__description">
+              This website is a project I worked on in 2019. Back then, I had no
+              idea how to develop web pages. I had an opportunity to build a
+              presentation website for a CNC milling company and decided to try
+              and make the best website I could. Admittedly, after having much
+              more experience with web development, I would reimplement the
+              whole site. The company is pleased with the result, so I do not
+              deem it worth the time.
+            </p>
+          </a>
+        </li>
+      </ul>
+
+      <p class="paragraph">... and much more on its way.</p>
+    </main>
+  </body>
+</html>
